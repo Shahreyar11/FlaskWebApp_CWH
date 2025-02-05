@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="container-fluid bg-light py-5">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8 col-lg-6">
+                <div class="card shadow-sm">
+                    <div class="card-header bg-primary text-white text-center">
+                        <h2 class="mb-0"><i class="fas fa-edit me-2"></i>Update Task</h2>
+                    </div>
+                    <div class="card-body">
+                        <form action="/update/{{todo.sno}}" method="POST">
+                            <div class="mb-3">
+                                <label for="title" class="form-label">Task Title</label>
+                                <input type="text" class="form-control" name="title" id="title" 
+                                       value="{{todo.title}}" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="description" class="form-label">Task Description</label>
+                                <textarea class="form-control" name="desc" id="description" 
+                                          rows="3">{{todo.desc}}</textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">
+                                <i class="fas fa-sync-alt me-2"></i>Update Task
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock body %}
