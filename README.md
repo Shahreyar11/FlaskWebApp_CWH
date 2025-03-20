@@ -1,57 +1,17 @@
-CRUD App with Python, SQLite, Flask, HTML, and CSS
+<h1>CRUD App using Python, SQLite, Flask, HTML, and CSS</h1>
 
-Project Overview
+<h2>Overview</h2>
+<p>This is a basic CRUD (Create, Read, Update, Delete) application built using Python, Flask, and SQLite for the backend, and HTML and CSS for the frontend. It allows users to manage data with simple operations.</p>
 
-This is a simple CRUD (Create, Read, Update, Delete) web application built using Python, SQLite, Flask, HTML, and CSS. It allows users to perform basic operations on a database, including adding, viewing, editing, and deleting records.
+<h2>Features</h2>
+<ul>
+  <li>Create, Read, Update, and Delete records</li>
+  <li>User-friendly interface</li>
+  <li>Lightweight SQLite database</li>
+</ul>
 
-Features
+<h2>Installation</h2>
+<p>Clone the repository, install dependencies using <code>pip install -r requirements.txt</code>, and run <code>python app.py</code>. Access the app at <code>http://localhost:5000</code>.</p>
 
-Create new records
-
-Read and display records
-
-Update existing records
-
-Delete records
-
-User-friendly interface with HTML and CSS
-
-Technologies Used
-
-Python: Backend development using Flask
-
-SQLite: Database management
-
-Flask: Web framework for Python
-
-HTML/CSS: Frontend design and styling
-
-Installation
-
-Follow these steps to set up the project:
-
-Clone the repository:
-
-Navigate to the project directory:
-
-Install dependencies:
-
-Run the application:
-
-Open your browser and go to http://localhost:5000
-
-Project Structure
-
-Usage
-
-Add Records: Navigate to the /add route to add new records.
-
-View Records: View all existing records on the homepage.
-
-Edit Records: Click the edit button next to a record to update it.
-
-Delete Records: Click the delete button to remove a record.
-
-Contributing
-
-Feel free to submit issues or pull requests for improvements.
+<h2>License</h2>
+<p>MIT License</p>
